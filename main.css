@@ -1,0 +1,53 @@
+.game-wrapper {
+    background: #e8e8e845;
+    padding: 20px;
+    max-width: 272px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 2px 1px 1px rgba(204, 204, 204, 0.25);
+
+}
+
+.block {
+    background: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    display: inline-block;
+    min-width: 60px;
+    margin: 3px;
+    border-radius: 6px;
+    border: 1px solid #dedede;
+    font-family: sans-serif;
+    color: #757575;
+    cursor: pointer;
+    box-shadow: 0 2px 1px 1px rgba(204, 204, 204, 0.25);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+
+}
+.block:hover {
+    box-shadow: 0 2px 1px 1px rgba(204, 204, 204, 0.55);
+    color: #000000;
+}
+
+div#main-block {
+    max-width: 272px;
+}
+
+.screen {
+    background: #ffffff;
+    text-align: right;
+    padding: 15px 15px;
+    border-radius: 6px;
+    border: 1px solid #dedede;
+    font-family: sans-serif;
+    color: #757575;
+    margin: 3px;
+    box-shadow: 0 2px 1px 1px inset rgba(204, 204, 204, 0.25);
+
+}
